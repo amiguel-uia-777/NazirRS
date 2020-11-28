@@ -17,6 +17,13 @@ public class Cliente extends InfoUIA
 		Double saldo = 0.0;
 		Cuenta miCuenta = null;
 		
+		public void BuscarCliente() {
+			
+			String nombreCliente;
+			int Cuenta; 
+			
+		}
+		
 		@JsonCreator
 	    public Cliente(@JsonProperty("id")int id, @JsonProperty("name")String name, @JsonProperty("saldo")double p1) 
 		{
@@ -39,6 +46,14 @@ public class Cliente extends InfoUIA
 		 					t.validaCobranza();
 			 			}
 		 				);
+			
+		}
+		
+		public Object registroAgregado(Object GestorClientes) {
+			
+			return GestorClientes;
+			
+			
 			
 		}
 

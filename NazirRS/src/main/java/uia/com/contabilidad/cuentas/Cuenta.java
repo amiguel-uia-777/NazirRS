@@ -30,6 +30,23 @@ public class Cuenta extends InfoUIA
 			this.fecha = fecha;
 		}	
 		
+		public void buscaCuenta() {
+			
+		}
+		
+		public void buscaCCheques(int idCliente) {
+			
+		}
+		
+		public void buscaCuentaCheques() {
+			
+		}
+		
+		public Object chequeDevuelto() {
+			Object chequeDevuelto = null;
+			return chequeDevuelto; 
+		}
+		
 		
 
 		public void validaCobranza()

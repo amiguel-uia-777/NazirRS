@@ -19,6 +19,11 @@ public class Cheque extends InfoUIA
 		{			
 		}
 		
+		public Object buscarChequeDevuelto() {
+			Object chequeDevuelto = null;
+			return chequeDevuelto;
+		}
+		
 		@JsonCreator
 	    public Cheque(@JsonProperty("id")int id, @JsonProperty("name")String name, @JsonProperty("estado")String status, @JsonProperty("fecha")String fecha) 
 		{

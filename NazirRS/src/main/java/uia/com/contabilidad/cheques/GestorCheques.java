@@ -26,6 +26,11 @@ public class GestorCheques
 		return miCheque;
 		
 	}
+	
+	public Object chequeDevuelto() {
+		Object chequeDevuelto = null;
+		return chequeDevuelto;
+	}
 
 	public AsientoDeudor realizaAsientoDeudor(Cuenta ccheques, String cuentaCheques, String nomCheque) {
 		

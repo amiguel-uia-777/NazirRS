@@ -85,6 +85,16 @@ public class GestorClientes {
 		return listaStr;
 		
 	}
+	
+	public void agregaRegistroChequeDevuelto(int Periodo) {
+		
+	}
+	
+	public void buscaCuenta() {
+		
+	}
+	
+	
 
 	
 	public void validaCobranza()
@@ -122,4 +132,9 @@ public class GestorClientes {
 		}
 		
 	}
+	
+	public Object registroAgregado(Object CuentasXCobrar) {
+		return CuentasXCobrar;
+	}
+	
 }
